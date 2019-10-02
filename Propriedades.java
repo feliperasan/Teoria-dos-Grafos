@@ -108,9 +108,9 @@ public class Propriedades {
         }
 
         if (contador != 0) {
-            System.out.println("Não é um grafo Hamiltoniano!");
+            System.out.println("Não satisfez a condição de Ore!");
         } else {
-            System.out.println("É um grafo Hamiltoniano!");
+            System.out.println("Satisfez a condição de Ore!");
         }
     }
 }
